@@ -27,4 +27,9 @@ public class Limits {
 		element = CommonFunctions.FindElementWithExplicitWait(driver, By.xpath(".//*[@id='content']/div[2]/div[2]/div/p[1]"));
 		return element;
 	}
+	//Method to find the trading limits here link
+	public static WebElement link_TradingLimitsHere(WebDriver driver){
+		element = CommonFunctions.FindElementWithExplicitWait(driver, By.xpath(".//*[@id='fully_authenticated']/a"));
+		return element;
+	}
 }

@@ -20,7 +20,7 @@ public class Validate_PortfolioPage extends BaseClass {
 	  public void NavigateToTradePage() {
 		Navigation_Action.Navigate_To_TradingPage(driver);
 	  }
-	@Test(priority=2,description="Test Method to validate contract purchase for Volatility Indices")
+	@Test(enabled=false,description="Test Method to validate contract purchase for Volatility Indices")
 	public void TestContractPurchase() {
 		Trading_Action.ValidateContractTopPurchase(driver,"AUD/JPY","1","h","10");
 		Trading_Action.CloseViewPopup(driver);
@@ -29,7 +29,7 @@ public class Validate_PortfolioPage extends BaseClass {
 	  public void NavigateToPortfolioPage() {
 		Navigation_Action.Navigate_To_PortfolioPage(driver);
 	  }
-	@Test(priority=5,description="Test Method to validate sell contract")
+	@Test(enabled=false,description="Test Method to validate sell contract")
 	  public void ValidateSellContractPortfolio() {
 		Portfolio_Action.ValidatePortfolioSellContract(driver,"AUD/JPY","1","h","10");
 

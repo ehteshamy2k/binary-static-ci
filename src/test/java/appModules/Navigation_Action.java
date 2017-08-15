@@ -91,6 +91,7 @@ public class Navigation_Action {
     }
     public static void Navigate_To_LimitsPage(WebDriver driver){
         Security_Page.link_Limits(driver).click();
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
     }
     public static void Navigate_To_SelfExclusionPage(WebDriver driver){
         Security_Page.link_SelfExclusionPage(driver).click();

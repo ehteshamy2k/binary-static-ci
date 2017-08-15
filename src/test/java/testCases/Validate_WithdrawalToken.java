@@ -14,7 +14,7 @@ import appModules.WithdrawalToken_Action;
 
 public class Validate_WithdrawalToken extends BaseClass {
 	
-  @Test(description = "Validate withdrawal token")
+  @Test(enabled=false,description = "Validate withdrawal token")
   public void A_TestWithdrawalNotification() throws InterruptedException {
 	  
 	  Navigation_Action.Navigate_To_LoginPage(driver);

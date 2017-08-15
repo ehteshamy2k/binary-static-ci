@@ -46,7 +46,7 @@ public class Security_Page {
     //Method to find Limits link
     public static WebElement link_Limits(WebDriver driver)
     {
-		element = CommonFunctions.FindElementWithExplicitWait(driver, (By.xpath(".//*[@id='settings_container']/div/div[4]/div[1]/a")));
+		element = CommonFunctions.FindElementWithExplicitWait(driver, (By.xpath("//a[contains(text(),'Limits')]")));
 		return element;
     }
 }

@@ -2,12 +2,9 @@
 package testCases;
 
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
-
-import pageObjects.Home_Page;
 import pageObjects.Login_History;
 import utility.Constant;
 import appModules.LoginHistory_Action;

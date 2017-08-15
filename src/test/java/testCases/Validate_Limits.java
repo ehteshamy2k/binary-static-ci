@@ -37,7 +37,7 @@ public class Validate_Limits extends BaseClass {
 	@Test(priority=6,description="Test Method to check is it authenticated and navigate to limits page")
 	public void NavigateToLimitsPage() {
 		Navigation_Action.Navigate_To_AuthenticationPage(driver);
-		Limits_Action.checkAuth(driver);
+		//Limits_Action.checkAuth(driver);
 		Navigation_Action.Navigate_To_SecurityPage(driver);
 		Navigation_Action.Navigate_To_LimitsPage(driver);
 	}

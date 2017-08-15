@@ -13,7 +13,6 @@ import utility.ListsUtil;
 public class Resources_Action {
 
     //Method to check title
-
     public static void checkTitle(WebDriver driver) {
         String j= Resources_Page.title_page(driver).getText();
         System.out.println("Result : "+ j);

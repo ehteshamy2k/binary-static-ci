@@ -98,27 +98,6 @@
 	     </classes>
 
 	</test>
-	<test name="ValidatePortfolioPage">
-		<parameter name="config" value="binary-static-ci.conf.json"/>
-        <parameter name="environment" value="chrome"/>
-		<classes>
-	      <class name="testCases.Validate_PortfolioPage" />
-	     </classes>
-	</test>
-	<test name="ValidateProfitTable">
-		<parameter name="config" value="binary-static-ci.conf.json"/>
-        <parameter name="environment" value="chrome"/>
-		<classes>
-	      <class name="testCases.Validate_ProfitTable" />
-	     </classes>
-	</test>
-	<test name="ValidateStatementPage">
-		<parameter name="config" value="binary-static-ci.conf.json"/>
-        <parameter name="environment" value="chrome"/>
-		<classes>
-	      <class name="testCases.Validate_StatementPage" />
-	     </classes>
-	</test>
 	<test name="checkResourcePage">
 	    <parameter name="config" value="binary-static-ci.conf.json"/>
         <parameter name="environment" value="chrome"/>
