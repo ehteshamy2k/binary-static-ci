@@ -90,19 +90,4 @@
 			<class name="testCases.Validate_APITokenPage" />
 		</classes>
 	</test>
-	<test name="ValidateLostPassword">
-	    <parameter name="config" value="binary-static-ci.conf.json"/>
-        <parameter name="environment" value="chrome"/>
-		<classes>
-	      <class name="testCases.Validate_LostPassword" />
-	     </classes>
-
-	</test>
-	<test name="checkResourcePage">
-	    <parameter name="config" value="binary-static-ci.conf.json"/>
-        <parameter name="environment" value="chrome"/>
-		<classes>
-			<class name="testCases.Validate_ResourcesPage" />
-		</classes>
-	</test>
 </suite>
